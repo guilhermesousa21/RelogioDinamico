@@ -9,11 +9,13 @@ const relogio = setInterval(function time() {
     let hr = dateToday.getHours()
     let min = dateToday.getMinutes()
     let secs = dateToday.getSeconds()
-
+    
+    
     //adiciona o 0 nos numeros até 9
     if (hr < 10) hr = '0' + hr
     if (min < 10) min = '0' + min
     if (secs < 10) secs = '0' + secs
+
 
     //puxado do html
     //texto do html que será trocado por hr/min/secs que tá cadastrado acima
